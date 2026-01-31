@@ -34,8 +34,8 @@ export default function CandidateCard() {
 
       const url =
         searchType === "enrollment"
-          ? "http://localhost:4000/advocate/search"
-          : "http://localhost:4000/advocate/search-name";
+          ? "https://law-mujib.onrender.com/advocate/search"
+          : "https://law-mujib.onrender.com/advocate/search-name";
 
       const params =
         searchType === "enrollment"
