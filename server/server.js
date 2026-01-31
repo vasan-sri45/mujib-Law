@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://mujibs-law.onrender.com",
+    origin: "https://mujib-laws.onrender.com",
     methods: ["GET", "POST"],
     credentials: true,
   })
